@@ -31,9 +31,6 @@ function RepoList({ spanText }){
                                 {repodata.name}
                             </span>
                         </div>
-                        <div className="right-block">
-                        <i onClick={() => console.log('repo', repodata.id)} className="material-icons">delete</i>
-                        </div>
                     </li>
                     )
                 })}
